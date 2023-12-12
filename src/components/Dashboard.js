@@ -21,8 +21,8 @@ const sampleOrganizations = [
 ];
 
 const UserDashboard = () => {
-  const [user, setUser] = useState(sampleUser);
-  const [organizations, setOrganizations] = useState(sampleOrganizations);
+  const [user] = useState(sampleUser);
+  const [organizations] = useState(sampleOrganizations);
 
   return (
     <div className="bg-gray-100 min-h-screen flex items-center justify-center">

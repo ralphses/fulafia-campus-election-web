@@ -20,9 +20,9 @@ const samplePositions = [
 ];
 
 const AllElectionPositions = () => {
-  const [organization, setOrganization] = useState(sampleOrganization);
-  const [election, setElection] = useState(sampleElection);
-  const [positions, setPositions] = useState(samplePositions);
+  const [organization] = useState(sampleOrganization);
+  const [election] = useState(sampleElection);
+  const [positions] = useState(samplePositions);
 
   return (
     <div className="bg-gray-100 min-h-screen flex items-center justify-center">

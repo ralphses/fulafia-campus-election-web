@@ -14,8 +14,8 @@ const sampleCandidates = [
 ];
 
 const AllElectionResults = () => {
-  const [election, setElection] = useState(sampleElection);
-  const [candidates, setCandidates] = useState(sampleCandidates);
+  const [election] = useState(sampleElection);
+  const [candidates] = useState(sampleCandidates);
 
   return (
     <div className="bg-gray-100 min-h-screen flex items-center justify-center">
