@@ -1,4 +1,4 @@
-
+import React, { useState} from 'react';
 
 // Sample data (replace this with actual API calls in a real application)
 const sampleElection = {
