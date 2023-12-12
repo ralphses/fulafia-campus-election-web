@@ -5,11 +5,11 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
   { name: "Register", href: "/register" },
-  { name: "About Us", href: "/register" },
-  { name: "Results", href: "/register" },
-  { name: "Voting", href: "/register" },
-  { name: "Candidates", href: "/register" },
-  { name: "Elections", href: "/register" },
+  { name: "About Us", href: "#" },
+  { name: "Results", href: "/dashboard/election/result" },
+  { name: "Voting", href: "#" },
+  { name: "Candidates", href: "/dashboard/election/candidates" },
+  { name: "Elections", href: "/dashboard/election" },
   
 ];
 
